@@ -1,0 +1,12 @@
+.dropBtn{
+    width: 100%;
+    margin: 10px;
+    position: fixed;
+    z-index: 100;
+}
+
+@media (max-width: 800px){
+    .dropBtn{
+        margin: 0;
+    }
+}

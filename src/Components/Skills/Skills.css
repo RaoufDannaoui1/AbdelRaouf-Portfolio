@@ -1,0 +1,12 @@
+@media (max-width: 800px){
+    .skill-area{
+        width: 100% ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .skill-title{
+        text-align: start;
+        margin-left: 5%;
+    }
+}

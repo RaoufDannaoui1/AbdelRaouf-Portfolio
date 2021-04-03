@@ -1,0 +1,9 @@
+.ant-btn-lg{
+    width: 300px;
+    margin: 30px;
+}
+@media (max-width: 800px){
+    .ant-btn-lg{
+        width: 200px;
+    }
+}

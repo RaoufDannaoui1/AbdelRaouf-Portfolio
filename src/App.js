@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css'
+import { BackTop } from 'antd'
+import Landing from './Containers/Landing/Landing'
+import About from './Containers/About/About'
+import Projects from './Containers/Projects/Projects'
+import Contact from './Containers/Contact/Contact'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Landing/>
+      <About/>
+      <Projects />
+      <Contact />
+      <BackTop />
     </div>
   );
 }

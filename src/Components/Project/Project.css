@@ -1,0 +1,16 @@
+.proj-img{
+    width: 80%;
+    height: 50vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-desc{
+    background: white;
+    width: 80%;
+}
+h5,h6{
+    margin: 0;
+}

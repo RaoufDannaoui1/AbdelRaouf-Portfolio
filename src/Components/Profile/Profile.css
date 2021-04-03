@@ -1,0 +1,40 @@
+.sub-information {
+  width: 40%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.profile-sec {
+  width: 100%;
+}
+.profile-title {
+  font-size: 1.2rem;
+  color: #0091ea;
+}
+.about-text-area {
+  font-size: 1rem;
+  width: 80%;
+}
+.info-title{
+  font-size: 1.1rem;
+  color: #0091ea;
+  margin-top: 15px ;
+}
+
+@media (max-width: 800px) {
+  .sub-information {
+    margin-top: 10%;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .info-subTitle{
+    margin-left: 5%;
+    text-align: start;
+  }
+  .profile-sec,
+  .about-text-area {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}

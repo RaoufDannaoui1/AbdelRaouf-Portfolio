@@ -1,0 +1,14 @@
+.projects-container{
+    height: 80vh;
+    width: 100%;
+    background: #151515 url(./port-proj.png) no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment:fixed;
+    text-align: center;
+}
+.section-title{
+    padding-top: 20px;
+}
+

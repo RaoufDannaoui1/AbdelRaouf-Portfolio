@@ -1,0 +1,35 @@
+.ant-input-affix-wrapper{
+    width:1040px;
+    margin: 20px 20px;
+}
+.ant-input-affix-wrapper-lg{
+    width:500px;
+    margin: 0 20px;
+}
+
+.form-info-area{
+    display: flex;
+    justify-content: center;
+}
+.form-msg-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+textarea.ant-input{
+    width: 1040px;
+}
+
+@media (max-width: 800px){
+    .form-info-area{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ant-input-affix-wrapper{
+        width:300px;
+         margin: 10px 0; 
+    } 
+     textarea.ant-input{
+        width: 300px;
+    }
+}
